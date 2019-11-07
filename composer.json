@@ -12,6 +12,7 @@
             "email": "jorickdelange@gmail.com"
         }
     ],
+    "version": "0.1",
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
