@@ -1,0 +1,22 @@
+{
+    "name": "jorickl/lara-settings",
+    "description": "Add global settings to your Laravel application",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorick de Lange",
+            "email": "jorickdelange@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JorickL\\LaraSettings\\": "./src/"
+        }
+    }
+}
