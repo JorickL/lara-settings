@@ -3,7 +3,8 @@
     "description": "Add global settings to your Laravel application",
     "type": "library",
     "require-dev": {
-        "phpunit/phpunit": "^8.4"
+        "phpunit/phpunit": "^8.4",
+        "orchestra/testbench": "^4.0"
     },
     "license": "MIT",
     "authors": [
@@ -18,6 +19,18 @@
     "autoload": {
         "psr-4": {
             "JorickL\\LaraSettings\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JorickL\\LaraSettings\\Tests\\": "./tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JorickL\\LaraSettings\\Providers\\LaraSettingsServiceProvider"
+            ]
         }
     }
 }
