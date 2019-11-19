@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests;
+namespace JorickL\LaraSettings\Tests\Feature;
 
-use PHPUnit\Framework\TestCase;
+use JorickL\LaraSettings\Tests\TestCase;
 
 class SettingsTest extends TestCase 
 {
