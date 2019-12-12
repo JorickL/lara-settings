@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JorickL\\LaraSettings\\Providers\\LaraSettingsServiceProvider"
+                "JorickL\\LaraSettings\\LaraSettingsServiceProvider"
             ]
         }
     }

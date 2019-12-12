@@ -12,7 +12,7 @@ class TestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            'JorickL\LaraSettings\Providers\LaraSettingsServiceProvider'
+            'JorickL\LaraSettings\LaraSettingsServiceProvider'
         ];
     }
 

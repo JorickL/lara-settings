@@ -3,6 +3,7 @@
 namespace JorickL\LaraSettings\Tests\Unit;
 
 use Illuminate\Support\Facades\DB;
+use JorickL\LaraSettings\Models\Setting;
 use JorickL\LaraSettings\Tests\TestCase;
 
 class LoadMigrationsTest extends TestCase

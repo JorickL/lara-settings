@@ -9,7 +9,7 @@ class CreateSettingsTable extends Migration
     
     public function up()
     {
-        Schema::create('settings', function(Blueprint $table) {
+        Schema::create(config('larasettings.tableName'), function(Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('key');
             $table->string('value');
@@ -18,6 +18,6 @@ class CreateSettingsTable extends Migration
 
     public function down()
     {
-        Schema::drop('settings');
+        Schema::drop(config('larasettings.tableName'));
     }
 }
