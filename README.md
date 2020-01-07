@@ -1,6 +1,6 @@
 # Lara-Settings v0.1
 
-Add global settings to your [Laravel](https://www.github.com/laravel/framework)® application.
+Add global settings to your [Laravel](https://www.github.com/laravel/laravel)® application.
 
 ## Installation
 
