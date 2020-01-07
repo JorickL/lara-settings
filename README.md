@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/JorickL/lara-settings/PHP Composer)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/JorickL/lara-settings/PHP-Composer)
 # Lara-Settings v0.1 
 
 Add global settings to your [Laravel](https://www.github.com/laravel/laravel)® application.
